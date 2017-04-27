@@ -1,8 +1,9 @@
 import { TestBed, inject } from '@angular/core/testing';
+import {CourseServerService} from './course-server.service';
 
-import { CourseServerService } from './course-server.service';
 
-describe('CourseServerService', () => {
+
+describe('CourseServiceServerService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [CourseServerService]

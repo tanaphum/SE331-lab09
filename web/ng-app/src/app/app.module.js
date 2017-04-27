@@ -34,9 +34,9 @@ AppModule = __decorate([
             students_add_component_1.StudentsAddComponent,
             students_view_component_1.StudentsViewComponent,
             time_component_1.TimeComponent,
-            menu_component_1.MenuComponent,
-            file_not_found_component_1.FileNotFoundComponent,
-            course_list_component_1.CourseListComponent],
+            menu_component_1.MenuComponent, file_not_found_component_1.FileNotFoundComponent,
+            course_list_component_1.CourseListComponent
+        ],
         imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule,
             student_routing_module_1.StudentRoutingModule, app_routing_module_1.AppRoutingModule],
         bootstrap: [app_component_1.AppComponent],

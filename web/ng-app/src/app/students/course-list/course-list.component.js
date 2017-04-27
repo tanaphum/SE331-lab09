@@ -10,9 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var course_1 = require("../course");
-/**
- * Created by Powernet&com on 4/18/2017.
- */
 var CourseListComponent = (function () {
     function CourseListComponent() {
     }

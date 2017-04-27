@@ -11,9 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- * Created by Dto on 07-Apr-17.
- */
+
 @Entity
 @Data
 @NoArgsConstructor

@@ -2,6 +2,12 @@ import {NgModule}              from '@angular/core';
 import {RouterModule, Routes}  from '@angular/router';
 import {FileNotFoundComponent} from "./filenotfound/file-not-found.component";
 const appRoutes: Routes = [
+
+  {
+    path: '',
+    redirectTo: '/list',
+    pathMatch: 'full'
+  },
   {path: '**', component: FileNotFoundComponent},
 ];
 

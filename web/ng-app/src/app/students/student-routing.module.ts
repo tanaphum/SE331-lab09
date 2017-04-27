@@ -23,12 +23,7 @@ const studentRoutes: Routes = [
     }
   },
   {path: 'add', component: StudentsAddComponent},
-  {path: 'list', component: StudentsComponent},
-  {
-    path: '',
-    redirectTo: '/list',
-    pathMatch: 'full'
-  }
+  {path: 'list', component: StudentsComponent}
 ];
 
 @NgModule({

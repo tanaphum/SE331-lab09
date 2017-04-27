@@ -1,8 +1,5 @@
-export  class Course{
-  id: number;
-  courseId: string;
-  courseName: string;
+export class Course{
+  courseId:string;
+  courseName:string;
+  id:number;
 }
-/**
- * Created by Powernet&com on 4/18/2017.
- */

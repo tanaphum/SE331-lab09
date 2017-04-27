@@ -9,9 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by Dto on 07-Apr-17.
- */
+
 @Repository
 @Profile("DBDataSource")
 public class StudentDaoDBImpl implements StudentDao {

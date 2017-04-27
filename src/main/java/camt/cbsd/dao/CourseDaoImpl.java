@@ -2,12 +2,13 @@ package camt.cbsd.dao;
 
 import camt.cbsd.entity.Course;
 import camt.cbsd.repository.CourseRepository;
+import jersey.repackaged.com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-/**
- * Created by Dto on 07-Apr-17.
- */
+import java.util.List;
+
+
 @Repository
 public class CourseDaoImpl implements CourseDao {
     CourseRepository courseRepository;
@@ -20,4 +21,11 @@ public class CourseDaoImpl implements CourseDao {
     public Course add(Course course) {
         return courseRepository.save(course);
     }
+
+    @Override
+    public List<Course> list() {
+        return Lists.newArrayList(courseRepository.findAll());
+    }
+
+
 }

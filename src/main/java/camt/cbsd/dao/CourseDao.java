@@ -2,9 +2,10 @@ package camt.cbsd.dao;
 
 import camt.cbsd.entity.Course;
 
-/**
- * Created by Dto on 07-Apr-17.
- */
+import java.util.List;
+
+
 public interface CourseDao {
     Course add(Course course);
+    List<Course> list();
 }

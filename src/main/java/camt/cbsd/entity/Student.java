@@ -11,9 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Created by Dto on 3/11/2017.
- */
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -22,15 +20,15 @@ import java.util.Optional;
 @Builder
 public class Student {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)    
-    long id;    
-    String studentId;    
-    String name;    
-    String surname;    
-    double gpa;    
-    String image;    
-    boolean feature;    
-    int penAmount;    
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    long id;
+    String studentId;
+    String name;
+    String surname;
+    double gpa;
+    String image;
+    boolean feature;
+    int penAmount;
     String description;
     @ManyToMany
     List<Course> enrolledCourse = new ArrayList<>();
@@ -41,5 +39,6 @@ public class Student {
         return enrolledCourse;
 
     }
+
 
 }

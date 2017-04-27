@@ -6,7 +6,9 @@ spring:
 server:
   baseUrl: http://localhost:8080/
   imageUrl: student/images/
-  imageServerDir: c:/Users/User/Documents/SE331-lab09/web/images/
+  imageServerDir: C:/Users/Admin/ocuments/SE331-lab09/web/images
+
+
 ---
 spring:
   profiles: inMemoryDB

@@ -4,9 +4,7 @@ import camt.cbsd.entity.Student;
 
 import java.util.List;
 
-/**
- * Created by Dto on 3/15/2017.
- */
+
 public abstract class AbstractStudentDao implements StudentDao {
     List<Student> students;
     String baseUrl;
